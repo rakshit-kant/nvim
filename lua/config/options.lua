@@ -4,6 +4,10 @@
 
 vim.opt.clipboard = "unnamedplus"
 
+-- Python
+vim.g.lazyvim_python_lsp = "basedpyright"
+vim.g.lazyvim_python_ruff = "ruff"
+
 -- =========================================================
 -- Global Indentation Settings
 -- Default fallback indentation for files
