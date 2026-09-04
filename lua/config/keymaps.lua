@@ -52,3 +52,9 @@ vim.keymap.set({ "n", "v" }, "gh", "^")
 
 -- Last Character in Line
 vim.keymap.set({ "n", "v" }, "gl", "$")
+
+-- =========================================================
+-- Terminal Fixes
+-- =========================================================
+
+vim.keymap.set("t", "<Esc>", [[<C-\><C-n>]], { desc = "Exit terminal mode" })
